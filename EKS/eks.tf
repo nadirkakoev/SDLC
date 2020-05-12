@@ -25,8 +25,11 @@ module "my-cluster" {
 
   vpc_id = "vpc-0f8521ee627e000c3"
   worker_groups = [{
-    instance_type = "m4.large"
-    asg_max_size  = 5
+    instance_type        = "t2.micro"
+    asg_max_size         = 3
+    asg_min_size         = 2
+    asg_desired_capacity = 2
+
     }
   ]
 }
