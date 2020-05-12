@@ -21,7 +21,7 @@ module "my-cluster" {
   version         = "12.0.0"
   cluster_name    = "my-cluster"
   cluster_version = "1.14"
-  subnets         = ["subnet-0045537f13c54d4c1"]
+  subnets         = ["subnet-0045537f13c54d4c1", "subnet-0b0fa334b1223c2b6"]
 
   vpc_id = "vpc-0f8521ee627e000c3"
   worker_groups = [{
