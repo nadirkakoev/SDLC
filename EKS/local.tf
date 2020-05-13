@@ -4,5 +4,11 @@ resource "null_resource" "login" {
     }
     provisioner "local-exec" {
     command = "kubectl get nodes"
+    }
+
+  
+  
+  
+  
   }
 }
