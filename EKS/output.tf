@@ -17,4 +17,5 @@ output "Name" {
 
 
 output "Sec_group" {
-  value = module.my-cluster.cluster_security_group_id
+  value = module.my-cluster.cluster_security_group_id 
+}
