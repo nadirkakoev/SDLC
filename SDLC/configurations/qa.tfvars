@@ -1,5 +1,5 @@
 environment = "qa"
-s3_bucket = "sdcl-nadir-qa" #Will be used to set backend.tf
+s3_bucket = "sdcl-nadir-stage" #Will be used to set backend.tf
 s3_folder_project = "vet" #Will be used to set backend.tf
 s3_folder_region = "us-east-2" #Will be used to set backend.tf
 s3_folder_type = "sharedtools" #Will be used to set backend.tf
