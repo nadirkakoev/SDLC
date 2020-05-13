@@ -12,7 +12,7 @@ output "region" {
 
 
 output "Name" {
-  value = module.my-cluster.cluster_name
+  value = var.cluster_name
 }
 
 
