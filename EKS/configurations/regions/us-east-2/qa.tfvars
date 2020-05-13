@@ -1,4 +1,4 @@
-environment = "dev"
+environment = "qa"
 region = "us-east-1"
 s3_bucket = "eks-burak-jenkins"              #Will be used to set backend.tf
 s3_folder_project = "application"            #Will be used to set backend.tf
