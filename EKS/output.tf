@@ -6,16 +6,16 @@ output "ID" {
 }
 
 
-output "region" {
+output "Region" {
   value = var.region
 }
 
 
-output "Name" {
+output "NAME" {
   value = var.cluster_name
 }
 
 
-output "Sec_group" {
-  value = module.my-cluster.cluster_security_group_id 
+output "Sec_Group" {
+  value = module.my-cluster.cluster_security_group_id
 }
