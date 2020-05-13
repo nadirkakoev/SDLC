@@ -1,5 +1,5 @@
 environment = "stage"
-region = "us-east-1"
+region = "us-west-2"
 s3_bucket = "state-class-nadir"              #Will be used to set backend.tf
 s3_folder_project = "application"            #Will be used to set backend.tf
 s3_folder_region = "us-east-1"               #Will be used to set backend.tf
@@ -10,10 +10,10 @@ s3_tfstate_file = "infrastructure.tfstate.json"   #Will be used to set backend.t
 
 
 
-vpc_id = "vpc-1471ad6e"
-subnet1 = "subnet-c74d1e8d"
-subnet2 = "subnet-e4820eb8"
-subnet3 = "subnet-1fe46778"
+vpc_id = "vpc-0466b9e3c1af79e0f"
+subnet1 = "subnet-0579caedc2b65f777"
+subnet2 = "subnet-0a2ac624ac0d295cc"
+subnet3 = "subnet-034cfb4573119a38d"
 cluster_name = "my-cluster"
 instance_type = "t2.micro"
 asg_max_size = "48" 
